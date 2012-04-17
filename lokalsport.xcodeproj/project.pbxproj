@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		809DB0D4153E16500071AAA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809DB0D3153E16500071AAA4 /* UIKit.framework */; };
+		809DB0D6153E16500071AAA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809DB0D5153E16500071AAA4 /* Foundation.framework */; };
+		809DB0D8153E16500071AAA4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809DB0D7153E16500071AAA4 /* CoreGraphics.framework */; };
+		809DB0DE153E16500071AAA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 809DB0DC153E16500071AAA4 /* InfoPlist.strings */; };
+		809DB0E0153E16500071AAA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 809DB0DF153E16500071AAA4 /* main.m */; };
+		809DB0E4153E16500071AAA4 /* lokalsportAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 809DB0E3153E16500071AAA4 /* lokalsportAppDelegate.m */; };
+		809DB0E7153E16500071AAA4 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 809DB0E5153E16500071AAA4 /* MainStoryboard_iPhone.storyboard */; };
+		809DB0EA153E16500071AAA4 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 809DB0E8153E16500071AAA4 /* MainStoryboard_iPad.storyboard */; };
+		809DB0ED153E16510071AAA4 /* lokalsportFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 809DB0EC153E16510071AAA4 /* lokalsportFirstViewController.m */; };
+		809DB0EF153E16510071AAA4 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 809DB0EE153E16510071AAA4 /* first.png */; };
+		809DB0F1153E16510071AAA4 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 809DB0F0153E16510071AAA4 /* first@2x.png */; };
+		809DB0F4153E16510071AAA4 /* lokalsportSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 809DB0F3153E16510071AAA4 /* lokalsportSecondViewController.m */; };
+		809DB0F6153E16510071AAA4 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 809DB0F5153E16510071AAA4 /* second.png */; };
+		809DB0F8153E16510071AAA4 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 809DB0F7153E16510071AAA4 /* second@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		809DB0CF153E16500071AAA4 /* lokalsport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lokalsport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		809DB0D3153E16500071AAA4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		809DB0D5153E16500071AAA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		809DB0D7153E16500071AAA4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		809DB0DB153E16500071AAA4 /* lokalsport-Info.plist */ = {isa = PBXFileReference; path = "lokalsport-Info.plist"; sourceTree = "<group>"; };
+		809DB0DD153E16500071AAA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		809DB0DF153E16500071AAA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		809DB0E1153E16500071AAA4 /* lokalsport-Prefix.pch */ = {isa = PBXFileReference; path = "lokalsport-Prefix.pch"; sourceTree = "<group>"; };
+		809DB0E2153E16500071AAA4 /* lokalsportAppDelegate.h */ = {isa = PBXFileReference; path = lokalsportAppDelegate.h; sourceTree = "<group>"; };
+		809DB0E3153E16500071AAA4 /* lokalsportAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lokalsportAppDelegate.m; sourceTree = "<group>"; };
+		809DB0E6153E16500071AAA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		809DB0E9153E16500071AAA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		809DB0EB153E16510071AAA4 /* lokalsportFirstViewController.h */ = {isa = PBXFileReference; path = lokalsportFirstViewController.h; sourceTree = "<group>"; };
+		809DB0EC153E16510071AAA4 /* lokalsportFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lokalsportFirstViewController.m; sourceTree = "<group>"; };
+		809DB0EE153E16510071AAA4 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		809DB0F0153E16510071AAA4 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		809DB0F2153E16510071AAA4 /* lokalsportSecondViewController.h */ = {isa = PBXFileReference; path = lokalsportSecondViewController.h; sourceTree = "<group>"; };
+		809DB0F3153E16510071AAA4 /* lokalsportSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lokalsportSecondViewController.m; sourceTree = "<group>"; };
+		809DB0F5153E16510071AAA4 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		809DB0F7153E16510071AAA4 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		809DB0CC153E16500071AAA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				809DB0D4153E16500071AAA4 /* UIKit.framework in Frameworks */,
+				809DB0D6153E16500071AAA4 /* Foundation.framework in Frameworks */,
+				809DB0D8153E16500071AAA4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		809DB0C4153E164F0071AAA4 = {
+			isa = PBXGroup;
+			children = (
+				809DB0D9153E16500071AAA4 /* lokalsport */,
+				809DB0D2153E16500071AAA4 /* Frameworks */,
+				809DB0D0153E16500071AAA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		809DB0D0153E16500071AAA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				809DB0CF153E16500071AAA4 /* lokalsport.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		809DB0D2153E16500071AAA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				809DB0D3153E16500071AAA4 /* UIKit.framework */,
+				809DB0D5153E16500071AAA4 /* Foundation.framework */,
+				809DB0D7153E16500071AAA4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		809DB0D9153E16500071AAA4 /* lokalsport */ = {
+			isa = PBXGroup;
+			children = (
+				809DB0E2153E16500071AAA4 /* lokalsportAppDelegate.h */,
+				809DB0E3153E16500071AAA4 /* lokalsportAppDelegate.m */,
+				809DB0E5153E16500071AAA4 /* MainStoryboard_iPhone.storyboard */,
+				809DB0E8153E16500071AAA4 /* MainStoryboard_iPad.storyboard */,
+				809DB0EB153E16510071AAA4 /* lokalsportFirstViewController.h */,
+				809DB0EC153E16510071AAA4 /* lokalsportFirstViewController.m */,
+				809DB0EE153E16510071AAA4 /* first.png */,
+				809DB0F0153E16510071AAA4 /* first@2x.png */,
+				809DB0F2153E16510071AAA4 /* lokalsportSecondViewController.h */,
+				809DB0F3153E16510071AAA4 /* lokalsportSecondViewController.m */,
+				809DB0F5153E16510071AAA4 /* second.png */,
+				809DB0F7153E16510071AAA4 /* second@2x.png */,
+				809DB0DA153E16500071AAA4 /* Supporting Files */,
+			);
+			path = lokalsport;
+			sourceTree = "<group>";
+		};
+		809DB0DA153E16500071AAA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				809DB0DB153E16500071AAA4 /* lokalsport-Info.plist */,
+				809DB0DC153E16500071AAA4 /* InfoPlist.strings */,
+				809DB0DF153E16500071AAA4 /* main.m */,
+				809DB0E1153E16500071AAA4 /* lokalsport-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		809DB0CE153E16500071AAA4 /* lokalsport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 809DB0FB153E16510071AAA4 /* Build configuration list for PBXNativeTarget "lokalsport" */;
+			buildPhases = (
+				809DB0CB153E16500071AAA4 /* Sources */,
+				809DB0CC153E16500071AAA4 /* Frameworks */,
+				809DB0CD153E16500071AAA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lokalsport;
+			productName = lokalsport;
+			productReference = 809DB0CF153E16500071AAA4 /* lokalsport.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		809DB0C6153E164F0071AAA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 809DB0C9153E164F0071AAA4 /* Build configuration list for PBXProject "lokalsport" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 809DB0C4153E164F0071AAA4;
+			productRefGroup = 809DB0D0153E16500071AAA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				809DB0CE153E16500071AAA4 /* lokalsport */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		809DB0CD153E16500071AAA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				809DB0DE153E16500071AAA4 /* InfoPlist.strings in Resources */,
+				809DB0E7153E16500071AAA4 /* MainStoryboard_iPhone.storyboard in Resources */,
+				809DB0EA153E16500071AAA4 /* MainStoryboard_iPad.storyboard in Resources */,
+				809DB0EF153E16510071AAA4 /* first.png in Resources */,
+				809DB0F1153E16510071AAA4 /* first@2x.png in Resources */,
+				809DB0F6153E16510071AAA4 /* second.png in Resources */,
+				809DB0F8153E16510071AAA4 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		809DB0CB153E16500071AAA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				809DB0E0153E16500071AAA4 /* main.m in Sources */,
+				809DB0E4153E16500071AAA4 /* lokalsportAppDelegate.m in Sources */,
+				809DB0ED153E16510071AAA4 /* lokalsportFirstViewController.m in Sources */,
+				809DB0F4153E16510071AAA4 /* lokalsportSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		809DB0DC153E16500071AAA4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				809DB0DD153E16500071AAA4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		809DB0E5153E16500071AAA4 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				809DB0E6153E16500071AAA4 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		809DB0E8153E16500071AAA4 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				809DB0E9153E16500071AAA4 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		809DB0F9153E16510071AAA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		809DB0FA153E16510071AAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		809DB0FC153E16510071AAA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lokalsport/lokalsport-Prefix.pch";
+				INFOPLIST_FILE = "lokalsport/lokalsport-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		809DB0FD153E16510071AAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lokalsport/lokalsport-Prefix.pch";
+				INFOPLIST_FILE = "lokalsport/lokalsport-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		809DB0C9153E164F0071AAA4 /* Build configuration list for PBXProject "lokalsport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				809DB0F9153E16510071AAA4 /* Debug */,
+				809DB0FA153E16510071AAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		809DB0FB153E16510071AAA4 /* Build configuration list for PBXNativeTarget "lokalsport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				809DB0FC153E16510071AAA4 /* Debug */,
+				809DB0FD153E16510071AAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 809DB0C6153E164F0071AAA4 /* Project object */;
+}
