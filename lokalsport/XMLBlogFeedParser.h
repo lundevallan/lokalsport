@@ -8,6 +8,32 @@
 
 #import <Foundation/Foundation.h>
 
-@interface XMLBlogFeedParser : NSObject
+@class lokalsportAppDelegate, newsFeedXML;
+
+@interface XMLBlogFeedParser : NSObject<NSXMLParserDelegate>
+{
+    
+    
+    
+    NSMutableString *currentElementValue;
+    
+    lokalsportAppDelegate *appDelegate;
+    
+    
+    
+    newsFeedXML *newsFXML;
+    
+    
+    
+}
+
+//@property (nonatomic, retain)categoriesXML *catXML;
+
+
+@property (nonatomic, retain)newsFeedXML *newsFXML;
+
+
+
+-(XMLBlogFeedParser *) initXMLBlogFeedParser;
 
 @end

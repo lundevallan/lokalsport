@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface lokalsportSecondViewController : UIViewController
+@class lokalsportAppDelegate;
 
+@interface lokalsportBlogViewController : UITableViewController
+{
+    NSArray *Blogs;
+    
+        lokalsportAppDelegate *appDelegate;
+    
+}
+@property (strong, nonatomic) NSArray *Blogs;
 @end

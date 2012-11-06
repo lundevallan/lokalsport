@@ -7,16 +7,116 @@
 //
 
 #import "lokalsportAppDelegate.h"
+#import "XMLParser.h"
+#import "lokalsportNewsFeedController.h"
+#import "XMLNewsFeedParser.h"
+#import "lokalsportNewsFeedViewController.h"
+
+
+#import "Reachability.h"
+
+@interface lokalsportAppDelegate (private) 
+
+-(void)reachabilityChanged:(NSNotification*)note;
+
+@end
+
 
 @implementation lokalsportAppDelegate
 
-@synthesize window = _window;
+
+@synthesize window = _window, categories, categoriesBlog, newsFeed, categoryFeeds, currentCategoryFeed, currentBlogNewsFeed, oldNewsFeed, internet;
+
+
+-(void)reachabilityChanged:(NSNotification*)note
+{
+    Reachability * reach = [note object];
+    
+    if([reach isReachable])
+    {    
+        internet = YES;
+    }
+    else
+    {
+        internet = NO;
+    }
+}
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+    [self downloadAndParse];
+    
+    internet = YES;
+    
+    //en notifikationsfångare
+    [[NSNotificationCenter defaultCenter] addObserver:self 
+                                             selector:@selector(reachabilityChanged:) 
+                                                 name:kReachabilityChangedNotification 
+                                               object:nil];
+    
+    
+    //Här nedan gör det så att man alltid får notifikation om internet försvinner eller kommer igång igen.
+    Reachability * reach = [Reachability reachabilityWithHostname:@"www.lokalsport.nu"];
+    
+    reach.reachableBlock = ^(Reachability * reachability)
+    {
+        dispatch_async(dispatch_get_main_queue(), ^{
+            internet = YES;
+        });
+    };
+    
+    reach.unreachableBlock = ^(Reachability * reachability)
+    {
+        dispatch_async(dispatch_get_main_queue(), ^{
+            internet = NO;
+        });
+    };
+    
+   [reach startNotifier];
+
+  
+    //Initierar categoryfeeds dictionary...
+    categoryFeeds = [[NSMutableDictionary alloc] init];
+
     return YES;
 }
+
+-(void)downloadAndParse{
+
+    //laddar in xml-feeden för startsidan.
+    NSURL *newsFeedUrl = [[NSURL alloc] initWithString:@"http://lokalsport.nu/index.php?format=feed&type=lsfeed"];    
+    NSXMLParser *xmlNewsFeedParser = [[NSXMLParser alloc] initWithContentsOfURL:newsFeedUrl];
+    
+    XMLNewsFeedParser *parserNF = [[XMLNewsFeedParser alloc] initXMLNewsFeedParser];
+    
+    [xmlNewsFeedParser  setDelegate:(id)parserNF];
+    
+    BOOL success1 = [xmlNewsFeedParser parse];
+   
+    
+    //Laddar in xml filen för kategorierna och bloggarna.
+    NSURL *url = [[NSURL alloc] initWithString:@"http://lokalsport.nu/mobilapp/feedinfo.xml"];
+    
+    
+    NSXMLParser *xmlParser = [[NSXMLParser alloc] initWithContentsOfURL:url];
+    XMLParser *parser = [[XMLParser alloc] initXMLParser];
+    [xmlParser setDelegate:(id)parser];
+    BOOL success = [xmlParser parse];
+    
+    
+    if (success1 && success)
+    {
+
+    }
+    else
+    {
+
+    }
+}
+
+
 							
 - (void)applicationWillResignActive:(UIApplication *)application
 {

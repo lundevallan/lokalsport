@@ -8,6 +8,23 @@
 
 #import <UIKit/UIKit.h>
 
+
+@class lokalsportAppDelegate;
+
 @interface lokalsportCategoryItemsViewController : UITableViewController
+{
+    NSString *selectedItem;
+    
+    lokalsportAppDelegate *appDelegate;
+        
+    UIActivityIndicatorView *spinner;
+       UILabel *label;
+}
+
+
+@property (nonatomic, retain) NSString *selectedItem;
+@property(strong, nonatomic) UIActivityIndicatorView *spinner;
+@property(strong, nonatomic) UILabel *label;
+- (IBAction) refreshMethod:(id)senderId;
 
 @end

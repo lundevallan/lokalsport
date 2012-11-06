@@ -10,4 +10,6 @@
 
 @implementation newsFeedXML
 
+@synthesize description, link, guid, author, image, title, pubDate, category;
+
 @end

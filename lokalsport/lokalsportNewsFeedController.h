@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface lokalsportFirstViewController : UIViewController
+@interface lokalsportNewsFeedController : UIViewController
+                <UITableViewDelegate, UITableViewDataSource>
+{
+    NSArray *News;
+    
+}
+@property (strong, nonatomic) NSArray *News;
 
 @end

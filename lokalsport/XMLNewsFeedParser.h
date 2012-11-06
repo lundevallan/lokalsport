@@ -6,8 +6,38 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
+
 #import <UIKit/UIKit.h>
 
-@interface XMLNewsFeedParser : NSObject
+
+@class lokalsportAppDelegate, newsFeedXML;
+
+
+
+@interface XMLNewsFeedParser : NSObject<NSXMLParserDelegate>
+{
+    
+
+
+NSMutableString *currentElementValue;
+    
+lokalsportAppDelegate *appDelegate;
+
+
+    
+    newsFeedXML *newsFXML;
+
+
+
+}
+
+//@property (nonatomic, retain)categoriesXML *catXML;
+
+
+@property (nonatomic, retain)newsFeedXML *newsFXML;
+
+
+
+-(XMLNewsFeedParser *) initXMLNewsFeedParser;
 
 @end

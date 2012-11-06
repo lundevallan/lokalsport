@@ -8,6 +8,22 @@
 
 #import <UIKit/UIKit.h>
 
-@interface lokalsportCategoriesVIewController : UIView
+@class lokalsportAppDelegate;
+
+@interface lokalsportCategoriesViewController : UITableViewController
+
+{
+
+    lokalsportAppDelegate *appDelegate;
+    
+     IBOutlet UIActivityIndicatorView *activityIndicator;
+    
+    UIActivityIndicatorView *spinner;
+    
+}
+
+@property (nonatomic, retain) IBOutlet UIActivityIndicatorView *activityIndicator;
+
+@property(strong, nonatomic) UIActivityIndicatorView *spinner;
 
 @end

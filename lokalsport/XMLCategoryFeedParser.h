@@ -1,13 +1,47 @@
 //
-//  XMLCategoryFeedParser.h
+//  XMLNewsFeedParser.h
 //  lokalsport
 //
-//  Created by Linus  Karlsson on 5/5/12.
+//  Created by Linus  Karlsson on 4/25/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
+
 #import <UIKit/UIKit.h>
 
-@interface XMLCategoryFeedParser : UIView
+
+@class lokalsportAppDelegate, newsFeedXML;
+
+
+
+@interface XMLCategoryFeedParser : NSObject<NSXMLParserDelegate>
+{
+    
+    
+    
+    NSMutableString *currentElementValue;
+    
+    lokalsportAppDelegate *appDelegate;
+    
+    
+    
+    newsFeedXML *newsFXML;
+    
+    NSMutableArray  *category;
+    
+    
+    
+}
+
+//@property (nonatomic, retain)categoriesXML *catXML;
+
+
+@property (nonatomic, retain)newsFeedXML *newsFXML;
+
+@property (nonatomic, retain)NSMutableArray *category;
+
+
+
+-(XMLCategoryFeedParser *) initXMLCategoryFeedParser;
 
 @end

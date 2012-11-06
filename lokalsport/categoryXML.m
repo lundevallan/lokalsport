@@ -6,8 +6,10 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "categoriesXML.h"
+#import "categoryXML.h"
 
-@implementation categoriesXML
+@implementation categoryXML
+
+@synthesize name, info, cid, weight;
 
 @end

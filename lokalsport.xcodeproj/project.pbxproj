@@ -7,43 +7,99 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		430CD9021562D6B700C5BA02 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 430CD9011562D6B700C5BA02 /* Reachability.m */; };
+		430CD9041562D88000C5BA02 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 430CD9031562D88000C5BA02 /* SystemConfiguration.framework */; };
+		4314C8EF1545B6DB0041A9D0 /* lokalsportOneBlogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4314C8EE1545B6DB0041A9D0 /* lokalsportOneBlogViewController.m */; };
+		434DCFD0158E57E600602E2D /* spinnerbgSquare.png in Resources */ = {isa = PBXBuildFile; fileRef = 434DCFCF158E57E600602E2D /* spinnerbgSquare.png */; };
+		434DCFD2158E5B9C00602E2D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434DCFD3158E5B9C00602E2D /* MainStoryboard_iPhone.storyboard */; };
+		4388270515554AC900F61B6E /* XMLCategoryFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4388270415554AC900F61B6E /* XMLCategoryFeedParser.m */; };
+		438BD6D915456C6800F66701 /* lokalsportCategoryItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 438BD6D815456C6800F66701 /* lokalsportCategoryItemsViewController.m */; };
+		43B3780B1548002300A784BA /* XMLNewsFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B3780A1548002300A784BA /* XMLNewsFeedParser.m */; };
+		43B3780F1548005600A784BA /* newsFeedXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B3780E1548005600A784BA /* newsFeedXML.m */; };
+		43DFC1C9156AE11C0097529D /* spinnerbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 43DFC1C8156AE11C0097529D /* spinnerbg.png */; };
+		43DFC1D1156AF7AC0097529D /* spinnerbgBottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 43DFC1CF156AF7AC0097529D /* spinnerbgBottom.png */; };
+		43DFC1D2156AF7AC0097529D /* spinnerbgTop.png in Resources */ = {isa = PBXBuildFile; fileRef = 43DFC1D0156AF7AC0097529D /* spinnerbgTop.png */; };
+		43E83AB4155A7FA90013A7EC /* XMLBlogFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E83AB3155A7FA90013A7EC /* XMLBlogFeedParser.m */; };
+		43EAFE70155D01A0004074AE /* icon114_iphoneRetina.png in Resources */ = {isa = PBXBuildFile; fileRef = 43EAFE6D155D0158004074AE /* icon114_iphoneRetina.png */; };
+		43EAFE72155D0291004074AE /* icon57_iphoneNONRetina.png in Resources */ = {isa = PBXBuildFile; fileRef = 43EAFE71155D0291004074AE /* icon57_iphoneNONRetina.png */; };
+		43EAFE73155D02E9004074AE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 80E2DD02153ED7980025F91C /* Default.png */; };
+		43EAFE74155D02EC004074AE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80E2DCFA153ED6710025F91C /* Default@2x.png */; };
+		809575671544500600ECE650 /* categoryXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 809575661544500600ECE650 /* categoryXML.m */; };
+		8095756B154458C500ECE650 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8095756A154458C500ECE650 /* XMLParser.m */; };
 		809DB0D4153E16500071AAA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809DB0D3153E16500071AAA4 /* UIKit.framework */; };
 		809DB0D6153E16500071AAA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809DB0D5153E16500071AAA4 /* Foundation.framework */; };
 		809DB0D8153E16500071AAA4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809DB0D7153E16500071AAA4 /* CoreGraphics.framework */; };
 		809DB0DE153E16500071AAA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 809DB0DC153E16500071AAA4 /* InfoPlist.strings */; };
 		809DB0E0153E16500071AAA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 809DB0DF153E16500071AAA4 /* main.m */; };
 		809DB0E4153E16500071AAA4 /* lokalsportAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 809DB0E3153E16500071AAA4 /* lokalsportAppDelegate.m */; };
-		809DB0E7153E16500071AAA4 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 809DB0E5153E16500071AAA4 /* MainStoryboard_iPhone.storyboard */; };
-		809DB0EA153E16500071AAA4 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 809DB0E8153E16500071AAA4 /* MainStoryboard_iPad.storyboard */; };
-		809DB0ED153E16510071AAA4 /* lokalsportFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 809DB0EC153E16510071AAA4 /* lokalsportFirstViewController.m */; };
-		809DB0EF153E16510071AAA4 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 809DB0EE153E16510071AAA4 /* first.png */; };
-		809DB0F1153E16510071AAA4 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 809DB0F0153E16510071AAA4 /* first@2x.png */; };
-		809DB0F4153E16510071AAA4 /* lokalsportSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 809DB0F3153E16510071AAA4 /* lokalsportSecondViewController.m */; };
-		809DB0F6153E16510071AAA4 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 809DB0F5153E16510071AAA4 /* second.png */; };
-		809DB0F8153E16510071AAA4 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 809DB0F7153E16510071AAA4 /* second@2x.png */; };
+		809DB0EF153E16510071AAA4 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 809DB0EE153E16510071AAA4 /* apple.png */; };
+		809DB0F4153E16510071AAA4 /* lokalsportBlogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 809DB0F3153E16510071AAA4 /* lokalsportBlogViewController.m */; };
+		80E2DCED153EBB980025F91C /* lokalsportCategoriesVIewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E2DCEC153EBB980025F91C /* lokalsportCategoriesVIewController.m */; };
+		80E2DCF5153ED64A0025F91C /* blogg.png in Resources */ = {isa = PBXBuildFile; fileRef = 80E2DCF0153ED64A0025F91C /* blogg.png */; };
+		80E2DCF6153ED64A0025F91C /* iconRaw.png in Resources */ = {isa = PBXBuildFile; fileRef = 80E2DCF1153ED64A0025F91C /* iconRaw.png */; };
+		80E2DCF7153ED64A0025F91C /* kategorier.png in Resources */ = {isa = PBXBuildFile; fileRef = 80E2DCF2153ED64A0025F91C /* kategorier.png */; };
+		80E2DCF8153ED64A0025F91C /* loadingscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 80E2DCF3153ED64A0025F91C /* loadingscreen.png */; };
+		80E2DCF9153ED64A0025F91C /* newsfeed.png in Resources */ = {isa = PBXBuildFile; fileRef = 80E2DCF4153ED64A0025F91C /* newsfeed.png */; };
+		80E2DD01153ED7910025F91C /* loadingscreen_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 80E2DD00153ED7910025F91C /* loadingscreen_small.png */; };
+		80E2DD0B153EDD990025F91C /* lokalsportNewsFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E2DD0A153EDD990025F91C /* lokalsportNewsFeedViewController.m */; };
+		80EE82BE153F022B00F2A187 /* newsItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EE82BD153F022B00F2A187 /* newsItemViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		430CD9001562D6B700C5BA02 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		430CD9011562D6B700C5BA02 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		430CD9031562D88000C5BA02 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4314C8ED1545B6DB0041A9D0 /* lokalsportOneBlogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lokalsportOneBlogViewController.h; sourceTree = "<group>"; };
+		4314C8EE1545B6DB0041A9D0 /* lokalsportOneBlogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lokalsportOneBlogViewController.m; sourceTree = "<group>"; };
+		434DCFCF158E57E600602E2D /* spinnerbgSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spinnerbgSquare.png; sourceTree = "<group>"; };
+		434DCFD3158E5B9C00602E2D /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		4388270315554AC900F61B6E /* XMLCategoryFeedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLCategoryFeedParser.h; sourceTree = "<group>"; };
+		4388270415554AC900F61B6E /* XMLCategoryFeedParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLCategoryFeedParser.m; sourceTree = "<group>"; };
+		438BD6D715456C6800F66701 /* lokalsportCategoryItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lokalsportCategoryItemsViewController.h; sourceTree = "<group>"; };
+		438BD6D815456C6800F66701 /* lokalsportCategoryItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lokalsportCategoryItemsViewController.m; sourceTree = "<group>"; };
+		43B378091548002300A784BA /* XMLNewsFeedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLNewsFeedParser.h; sourceTree = "<group>"; };
+		43B3780A1548002300A784BA /* XMLNewsFeedParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLNewsFeedParser.m; sourceTree = "<group>"; };
+		43B3780D1548005600A784BA /* newsFeedXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newsFeedXML.h; sourceTree = "<group>"; };
+		43B3780E1548005600A784BA /* newsFeedXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newsFeedXML.m; sourceTree = "<group>"; };
+		43CF5B5F1546E5FA00C6CB5E /* ipad72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad72.png; sourceTree = "<group>"; };
+		43DFC1C8156AE11C0097529D /* spinnerbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spinnerbg.png; sourceTree = "<group>"; };
+		43DFC1CF156AF7AC0097529D /* spinnerbgBottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spinnerbgBottom.png; sourceTree = "<group>"; };
+		43DFC1D0156AF7AC0097529D /* spinnerbgTop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spinnerbgTop.png; sourceTree = "<group>"; };
+		43E83AB2155A7FA90013A7EC /* XMLBlogFeedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLBlogFeedParser.h; sourceTree = "<group>"; };
+		43E83AB3155A7FA90013A7EC /* XMLBlogFeedParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLBlogFeedParser.m; sourceTree = "<group>"; };
+		43EAFE6D155D0158004074AE /* icon114_iphoneRetina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon114_iphoneRetina.png; sourceTree = "<group>"; };
+		43EAFE71155D0291004074AE /* icon57_iphoneNONRetina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon57_iphoneNONRetina.png; sourceTree = "<group>"; };
+		809575651544500600ECE650 /* categoryXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = categoryXML.h; sourceTree = "<group>"; };
+		809575661544500600ECE650 /* categoryXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = categoryXML.m; sourceTree = "<group>"; };
+		80957569154458C500ECE650 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		8095756A154458C500ECE650 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
 		809DB0CF153E16500071AAA4 /* lokalsport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lokalsport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		809DB0D3153E16500071AAA4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		809DB0D5153E16500071AAA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		809DB0D7153E16500071AAA4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		809DB0DB153E16500071AAA4 /* lokalsport-Info.plist */ = {isa = PBXFileReference; path = "lokalsport-Info.plist"; sourceTree = "<group>"; };
+		809DB0DB153E16500071AAA4 /* lokalsport-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lokalsport-Info.plist"; sourceTree = "<group>"; };
 		809DB0DD153E16500071AAA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		809DB0DF153E16500071AAA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		809DB0E1153E16500071AAA4 /* lokalsport-Prefix.pch */ = {isa = PBXFileReference; path = "lokalsport-Prefix.pch"; sourceTree = "<group>"; };
-		809DB0E2153E16500071AAA4 /* lokalsportAppDelegate.h */ = {isa = PBXFileReference; path = lokalsportAppDelegate.h; sourceTree = "<group>"; };
+		809DB0E1153E16500071AAA4 /* lokalsport-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lokalsport-Prefix.pch"; sourceTree = "<group>"; };
+		809DB0E2153E16500071AAA4 /* lokalsportAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lokalsportAppDelegate.h; sourceTree = "<group>"; };
 		809DB0E3153E16500071AAA4 /* lokalsportAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lokalsportAppDelegate.m; sourceTree = "<group>"; };
-		809DB0E6153E16500071AAA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		809DB0E9153E16500071AAA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		809DB0EB153E16510071AAA4 /* lokalsportFirstViewController.h */ = {isa = PBXFileReference; path = lokalsportFirstViewController.h; sourceTree = "<group>"; };
-		809DB0EC153E16510071AAA4 /* lokalsportFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lokalsportFirstViewController.m; sourceTree = "<group>"; };
-		809DB0EE153E16510071AAA4 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		809DB0F0153E16510071AAA4 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		809DB0F2153E16510071AAA4 /* lokalsportSecondViewController.h */ = {isa = PBXFileReference; path = lokalsportSecondViewController.h; sourceTree = "<group>"; };
-		809DB0F3153E16510071AAA4 /* lokalsportSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lokalsportSecondViewController.m; sourceTree = "<group>"; };
-		809DB0F5153E16510071AAA4 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		809DB0F7153E16510071AAA4 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		809DB0EE153E16510071AAA4 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		809DB0F2153E16510071AAA4 /* lokalsportBlogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lokalsportBlogViewController.h; sourceTree = "<group>"; };
+		809DB0F3153E16510071AAA4 /* lokalsportBlogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lokalsportBlogViewController.m; sourceTree = "<group>"; };
+		80E2DCEB153EBB980025F91C /* lokalsportCategoriesVIewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lokalsportCategoriesVIewController.h; sourceTree = "<group>"; };
+		80E2DCEC153EBB980025F91C /* lokalsportCategoriesVIewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lokalsportCategoriesVIewController.m; sourceTree = "<group>"; };
+		80E2DCF0153ED64A0025F91C /* blogg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blogg.png; sourceTree = "<group>"; };
+		80E2DCF1153ED64A0025F91C /* iconRaw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconRaw.png; sourceTree = "<group>"; };
+		80E2DCF2153ED64A0025F91C /* kategorier.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kategorier.png; sourceTree = "<group>"; };
+		80E2DCF3153ED64A0025F91C /* loadingscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loadingscreen.png; sourceTree = "<group>"; };
+		80E2DCF4153ED64A0025F91C /* newsfeed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newsfeed.png; sourceTree = "<group>"; };
+		80E2DCFA153ED6710025F91C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		80E2DD00153ED7910025F91C /* loadingscreen_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loadingscreen_small.png; sourceTree = "<group>"; };
+		80E2DD02153ED7980025F91C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		80E2DD09153EDD990025F91C /* lokalsportNewsFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lokalsportNewsFeedViewController.h; sourceTree = "<group>"; };
+		80E2DD0A153EDD990025F91C /* lokalsportNewsFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lokalsportNewsFeedViewController.m; sourceTree = "<group>"; };
+		80EE82BC153F022B00F2A187 /* newsItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newsItemViewController.h; sourceTree = "<group>"; };
+		80EE82BD153F022B00F2A187 /* newsItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newsItemViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				430CD9041562D88000C5BA02 /* SystemConfiguration.framework in Frameworks */,
 				809DB0D4153E16500071AAA4 /* UIKit.framework in Frameworks */,
 				809DB0D6153E16500071AAA4 /* Foundation.framework in Frameworks */,
 				809DB0D8153E16500071AAA4 /* CoreGraphics.framework in Frameworks */,
@@ -60,9 +117,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4380FE7B15456E81004826AD /* newsFeedClasses */ = {
+			isa = PBXGroup;
+			children = (
+				80E2DD09153EDD990025F91C /* lokalsportNewsFeedViewController.h */,
+				80E2DD0A153EDD990025F91C /* lokalsportNewsFeedViewController.m */,
+			);
+			name = newsFeedClasses;
+			sourceTree = "<group>";
+		};
+		4380FE7C15456EA1004826AD /* xmlParseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				809575651544500600ECE650 /* categoryXML.h */,
+				809575661544500600ECE650 /* categoryXML.m */,
+				43B3780D1548005600A784BA /* newsFeedXML.h */,
+				43B3780E1548005600A784BA /* newsFeedXML.m */,
+				80957569154458C500ECE650 /* XMLParser.h */,
+				8095756A154458C500ECE650 /* XMLParser.m */,
+				43B378091548002300A784BA /* XMLNewsFeedParser.h */,
+				43B3780A1548002300A784BA /* XMLNewsFeedParser.m */,
+				4388270315554AC900F61B6E /* XMLCategoryFeedParser.h */,
+				4388270415554AC900F61B6E /* XMLCategoryFeedParser.m */,
+				43E83AB2155A7FA90013A7EC /* XMLBlogFeedParser.h */,
+				43E83AB3155A7FA90013A7EC /* XMLBlogFeedParser.m */,
+			);
+			name = xmlParseClasses;
+			sourceTree = "<group>";
+		};
+		4380FE7E15456ED6004826AD /* blogClasses */ = {
+			isa = PBXGroup;
+			children = (
+				809DB0F2153E16510071AAA4 /* lokalsportBlogViewController.h */,
+				809DB0F3153E16510071AAA4 /* lokalsportBlogViewController.m */,
+				4314C8ED1545B6DB0041A9D0 /* lokalsportOneBlogViewController.h */,
+				4314C8EE1545B6DB0041A9D0 /* lokalsportOneBlogViewController.m */,
+			);
+			name = blogClasses;
+			sourceTree = "<group>";
+		};
+		438BD6DB15456C8000F66701 /* categoryClasses */ = {
+			isa = PBXGroup;
+			children = (
+				438BD6D715456C6800F66701 /* lokalsportCategoryItemsViewController.h */,
+				438BD6D815456C6800F66701 /* lokalsportCategoryItemsViewController.m */,
+				80E2DCEB153EBB980025F91C /* lokalsportCategoriesVIewController.h */,
+				80E2DCEC153EBB980025F91C /* lokalsportCategoriesVIewController.m */,
+			);
+			name = categoryClasses;
+			sourceTree = "<group>";
+		};
+		807A5A32153EE85F00ACE8A4 /* webView */ = {
+			isa = PBXGroup;
+			children = (
+				80EE82BC153F022B00F2A187 /* newsItemViewController.h */,
+				80EE82BD153F022B00F2A187 /* newsItemViewController.m */,
+			);
+			name = webView;
+			sourceTree = "<group>";
+		};
 		809DB0C4153E164F0071AAA4 = {
 			isa = PBXGroup;
 			children = (
+				430CD9031562D88000C5BA02 /* SystemConfiguration.framework */,
+				80E2DD02153ED7980025F91C /* Default.png */,
+				80E2DCFA153ED6710025F91C /* Default@2x.png */,
+				43EAFE6D155D0158004074AE /* icon114_iphoneRetina.png */,
+				43EAFE71155D0291004074AE /* icon57_iphoneNONRetina.png */,
+				43DFC1CF156AF7AC0097529D /* spinnerbgBottom.png */,
+				43DFC1D0156AF7AC0097529D /* spinnerbgTop.png */,
+				43DFC1C8156AE11C0097529D /* spinnerbg.png */,
 				809DB0D9153E16500071AAA4 /* lokalsport */,
 				809DB0D2153E16500071AAA4 /* Frameworks */,
 				809DB0D0153E16500071AAA4 /* Products */,
@@ -92,16 +216,15 @@
 			children = (
 				809DB0E2153E16500071AAA4 /* lokalsportAppDelegate.h */,
 				809DB0E3153E16500071AAA4 /* lokalsportAppDelegate.m */,
-				809DB0E5153E16500071AAA4 /* MainStoryboard_iPhone.storyboard */,
-				809DB0E8153E16500071AAA4 /* MainStoryboard_iPad.storyboard */,
-				809DB0EB153E16510071AAA4 /* lokalsportFirstViewController.h */,
-				809DB0EC153E16510071AAA4 /* lokalsportFirstViewController.m */,
-				809DB0EE153E16510071AAA4 /* first.png */,
-				809DB0F0153E16510071AAA4 /* first@2x.png */,
-				809DB0F2153E16510071AAA4 /* lokalsportSecondViewController.h */,
-				809DB0F3153E16510071AAA4 /* lokalsportSecondViewController.m */,
-				809DB0F5153E16510071AAA4 /* second.png */,
-				809DB0F7153E16510071AAA4 /* second@2x.png */,
+				430CD9001562D6B700C5BA02 /* Reachability.h */,
+				430CD9011562D6B700C5BA02 /* Reachability.m */,
+				4380FE7C15456EA1004826AD /* xmlParseClasses */,
+				4380FE7B15456E81004826AD /* newsFeedClasses */,
+				807A5A32153EE85F00ACE8A4 /* webView */,
+				4380FE7E15456ED6004826AD /* blogClasses */,
+				438BD6DB15456C8000F66701 /* categoryClasses */,
+				80E2DCEF153ED2660025F91C /* pics */,
+				434DCFD3158E5B9C00602E2D /* MainStoryboard_iPhone.storyboard */,
 				809DB0DA153E16500071AAA4 /* Supporting Files */,
 			);
 			path = lokalsport;
@@ -116,6 +239,22 @@
 				809DB0E1153E16500071AAA4 /* lokalsport-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80E2DCEF153ED2660025F91C /* pics */ = {
+			isa = PBXGroup;
+			children = (
+				434DCFCF158E57E600602E2D /* spinnerbgSquare.png */,
+				43CF5B5F1546E5FA00C6CB5E /* ipad72.png */,
+				80E2DD00153ED7910025F91C /* loadingscreen_small.png */,
+				80E2DCF0153ED64A0025F91C /* blogg.png */,
+				80E2DCF1153ED64A0025F91C /* iconRaw.png */,
+				80E2DCF2153ED64A0025F91C /* kategorier.png */,
+				80E2DCF3153ED64A0025F91C /* loadingscreen.png */,
+				80E2DCF4153ED64A0025F91C /* newsfeed.png */,
+				809DB0EE153E16510071AAA4 /* apple.png */,
+			);
+			name = pics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +291,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				sv,
+				English,
 			);
 			mainGroup = 809DB0C4153E164F0071AAA4;
 			productRefGroup = 809DB0D0153E16500071AAA4 /* Products */;
@@ -169,12 +310,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				809DB0DE153E16500071AAA4 /* InfoPlist.strings in Resources */,
-				809DB0E7153E16500071AAA4 /* MainStoryboard_iPhone.storyboard in Resources */,
-				809DB0EA153E16500071AAA4 /* MainStoryboard_iPad.storyboard in Resources */,
-				809DB0EF153E16510071AAA4 /* first.png in Resources */,
-				809DB0F1153E16510071AAA4 /* first@2x.png in Resources */,
-				809DB0F6153E16510071AAA4 /* second.png in Resources */,
-				809DB0F8153E16510071AAA4 /* second@2x.png in Resources */,
+				434DCFD2158E5B9C00602E2D /* MainStoryboard_iPhone.storyboard in Resources */,
+				809DB0EF153E16510071AAA4 /* apple.png in Resources */,
+				80E2DCF5153ED64A0025F91C /* blogg.png in Resources */,
+				80E2DCF6153ED64A0025F91C /* iconRaw.png in Resources */,
+				80E2DCF7153ED64A0025F91C /* kategorier.png in Resources */,
+				80E2DCF8153ED64A0025F91C /* loadingscreen.png in Resources */,
+				80E2DCF9153ED64A0025F91C /* newsfeed.png in Resources */,
+				80E2DD01153ED7910025F91C /* loadingscreen_small.png in Resources */,
+				43EAFE70155D01A0004074AE /* icon114_iphoneRetina.png in Resources */,
+				43EAFE72155D0291004074AE /* icon57_iphoneNONRetina.png in Resources */,
+				43EAFE73155D02E9004074AE /* Default.png in Resources */,
+				43EAFE74155D02EC004074AE /* Default@2x.png in Resources */,
+				43DFC1C9156AE11C0097529D /* spinnerbg.png in Resources */,
+				43DFC1D1156AF7AC0097529D /* spinnerbgBottom.png in Resources */,
+				43DFC1D2156AF7AC0097529D /* spinnerbgTop.png in Resources */,
+				434DCFD0158E57E600602E2D /* spinnerbgSquare.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,8 +338,19 @@
 			files = (
 				809DB0E0153E16500071AAA4 /* main.m in Sources */,
 				809DB0E4153E16500071AAA4 /* lokalsportAppDelegate.m in Sources */,
-				809DB0ED153E16510071AAA4 /* lokalsportFirstViewController.m in Sources */,
-				809DB0F4153E16510071AAA4 /* lokalsportSecondViewController.m in Sources */,
+				809DB0F4153E16510071AAA4 /* lokalsportBlogViewController.m in Sources */,
+				80E2DCED153EBB980025F91C /* lokalsportCategoriesVIewController.m in Sources */,
+				80E2DD0B153EDD990025F91C /* lokalsportNewsFeedViewController.m in Sources */,
+				80EE82BE153F022B00F2A187 /* newsItemViewController.m in Sources */,
+				809575671544500600ECE650 /* categoryXML.m in Sources */,
+				8095756B154458C500ECE650 /* XMLParser.m in Sources */,
+				438BD6D915456C6800F66701 /* lokalsportCategoryItemsViewController.m in Sources */,
+				4314C8EF1545B6DB0041A9D0 /* lokalsportOneBlogViewController.m in Sources */,
+				43B3780B1548002300A784BA /* XMLNewsFeedParser.m in Sources */,
+				43B3780F1548005600A784BA /* newsFeedXML.m in Sources */,
+				4388270515554AC900F61B6E /* XMLCategoryFeedParser.m in Sources */,
+				43E83AB4155A7FA90013A7EC /* XMLBlogFeedParser.m in Sources */,
+				430CD9021562D6B700C5BA02 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,25 +365,47 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		809DB0E5153E16500071AAA4 /* MainStoryboard_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				809DB0E6153E16500071AAA4 /* en */,
-			);
-			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		809DB0E8153E16500071AAA4 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				809DB0E9153E16500071AAA4 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		43ED8B00155C57A70026F0EE /* adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Linus  Karlsson (9ARS238VJ2)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "042E6719-8ADC-4688-A24B-AF84289C7FF8";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = adhoc;
+		};
+		43ED8B01155C57A70026F0EE /* adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lokalsport/lokalsport-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "lokalsport/lokalsport-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = adhoc;
+		};
 		809DB0F9153E16510071AAA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -242,7 +426,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -261,7 +445,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -272,10 +456,16 @@
 		809DB0FC153E16510071AAA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "lokalsport/lokalsport-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "lokalsport/lokalsport-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -285,8 +475,13 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "lokalsport/lokalsport-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "lokalsport/lokalsport-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -299,17 +494,20 @@
 			buildConfigurations = (
 				809DB0F9153E16510071AAA4 /* Debug */,
 				809DB0FA153E16510071AAA4 /* Release */,
+				43ED8B00155C57A70026F0EE /* adhoc */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		809DB0FB153E16510071AAA4 /* Build configuration list for PBXNativeTarget "lokalsport" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				809DB0FC153E16510071AAA4 /* Debug */,
 				809DB0FD153E16510071AAA4 /* Release */,
+				43ED8B01155C57A70026F0EE /* adhoc */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

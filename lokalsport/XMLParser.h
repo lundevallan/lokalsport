@@ -8,6 +8,18 @@
 
 #import <Foundation/Foundation.h>
 
-@interface XMLParser : NSObject
+@class lokalsportAppDelegate, categoryXML;
+
+@interface XMLParser : NSObject<NSXMLParserDelegate> {
+
+    NSMutableString *currentElementValue;
+    lokalsportAppDelegate *appDelegate;
+    categoryXML *catXML;
+    
+}
+
+@property (nonatomic, retain)categoryXML *catXML;
+
+-(XMLParser *) initXMLParser;
 
 @end
